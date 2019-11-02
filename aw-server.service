@@ -1,0 +1,9 @@
+[Unit]
+Description=aw server
+
+[Service]
+ExecStart=/usr/local/bin/activitywatch/aw-server
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
